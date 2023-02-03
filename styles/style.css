@@ -1,0 +1,193 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
+    color: #000;
+}
+
+a:link {
+    color: #f00
+}
+
+a:visited {
+    color: #fc0;
+}
+
+a:hover {
+    color:aqua
+}
+
+a:active {
+    color: #f3f;
+}
+
+.logo {
+    font-size: 36px;
+}
+
+.logo {
+    padding-left: 1rem;
+}
+.logo > img {
+    width: 100px;
+}
+
+#navlist li {
+    display: inline;
+    list-style-type: circle;
+    padding-right: 20px;
+    border-left: 1px solid #000;
+    line-height: 1.1em;
+    margin: 0 .5em 0 -.5em;
+    padding: 0 .5em 0 .5em;
+}
+
+#navlist li:first-child {
+    border-left: 0;
+}
+
+.box {
+    margin: 10px;
+    padding: 10px;
+    background-color: #666;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    clear: both;
+}
+
+.nav {
+    margin: 10px;
+    padding: 10px;
+    background-color: #999;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.left {
+    width: 20%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ccc;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    float: left;
+}
+
+.center {
+    width: 47%;
+    margin-top: 10px;
+    margin-left: 25px;
+    padding: 10px;
+    background-color: #ccc;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    float: left;
+}
+
+.right {
+    width: 20%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ccc;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    float: right
+}
+
+.instructor_spotlight {
+    clear: both;
+    width: 98%;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #ccc;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.instructor_spotlight > .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spotlight {
+    display: flex;
+
+}
+
+.spotlight_image img {
+    width: 200px;
+}
+
+.lower_nav {
+    margin: 10px;
+    padding: 10px;
+    background-color: #999;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    clear: both;
+}
+
+.legal {
+    margin: 10px;
+    padding: 10px;
+    background-color: #999;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    float: none;
+    clear: both;
+}
+
+.deadnav {
+    color: #fff;
+    background-color: #3cf;
+}
+
+.left, .right {
+    text-align: center;
+    width: 20%;
+}
+
+.skills, .online_platforms {
+    width: 98%;
+}
+
+.skill, .platform {
+    width: 80%;
+    margin: 20px auto;
+    
+}
+
+.skill img, .platform img {
+    width: 100px;
+    border: 2px solid #aaa;
+    padding: 8px;
+    text-align: center;
+}
+
+figcaption {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: rgb(6, 85, 107);
+}
+
+.box .logo {
+    color: rgb(6, 85, 107);
+}
+
+.test_border {
+    border: 2px solid red;
+}
